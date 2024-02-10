@@ -1,10 +1,15 @@
+import Image from "next/image";
 import styles from "./page.module.css";
+import About from "@/components/about/about";
+import Title from "@/components/title/title";
 
 export default function Home() {
   return (
-   <div className={styles.main}>
-      <h1>Test</h1>
-      <h1>Test2</h1>
-   </div>
+    <main>
+      <div>
+        <Title></Title>
+        
+      </div>
+    </main>
   );
 }

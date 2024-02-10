@@ -1,15 +1,13 @@
-import Image from "next/image";
+import Navbar from "@/components/navbar/navbar";
 import styles from "./page.module.css";
 import About from "@/components/about/about";
 import Title from "@/components/title/title";
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <Title></Title>
-        
-      </div>
-    </main>
+    <div className={styles.main} id="home">
+      <Navbar />
+      <Title></Title>
+    </div>
   );
 }

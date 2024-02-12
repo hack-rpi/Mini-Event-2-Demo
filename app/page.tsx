@@ -8,6 +8,7 @@ export default function Home() {
     <div className={styles.main} id="home">
       <Navbar />
       <Title></Title>
+      <About></About>
     </div>
   );
 }

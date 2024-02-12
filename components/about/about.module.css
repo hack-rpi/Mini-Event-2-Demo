@@ -1,0 +1,43 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: var(--pink);
+}
+
+.aboutText{
+    font-size: 2rem;
+    color: var(--blue);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);  
+    padding: 20px;
+    border-radius: 10px;  
+}
+
+.aboutTitle{
+    font-size: 5rem;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+.topVideosLabel{
+    font-size: 4rem;
+    color: var(--blue);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.topVideos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--blue);
+    color: var(--pink);
+    width: 100%;
+    font-size: 3rem;
+    border-radius: 10px;
+}

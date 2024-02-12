@@ -1,19 +1,48 @@
-.Title{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    height: 100vh;
-    width: 100vw;
-
-}
-.TitleLeft{
-    width: 50%;
-    background-color: aquamarine;
-}
-.TitleLeftImg{
-    
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 48px;
+    width: 100%;
 }
 
-.TitleRight{
-    width: 50%;
+.leftContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    background-color: var(--hackrpi-primary-dark-green);
+}
+
+.titleImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.rightContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    background-color: var(--hackrpi-secondary-light-blue);
+}
+
+.title{
+    font-size: 5rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
 }

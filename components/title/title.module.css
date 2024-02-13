@@ -2,17 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 300px;
+    height: 100%;
     border-radius: 10px;
     padding-top: 48px;
     width: 100%;
+    background-color: var(--blue);
 }
 
 .leftContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: auto;
     height: 100%;
     background-color: var(--blue);
 }
@@ -37,6 +38,7 @@
 .title{
     font-size: 5rem;
     margin-bottom: 20px;
+    text-shadow: black 7px 7px;
 }
 
 .subtitle{

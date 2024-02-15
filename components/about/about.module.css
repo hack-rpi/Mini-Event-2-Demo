@@ -5,21 +5,25 @@
     justify-content: center;
     padding: 50px;
     background-color: var(--pink);
+    width:100%;
 }
 
 .aboutText{
     font-size: 2rem;
-    color: var(--blue);
+    color: var(--white);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);  
     padding: 20px;
-    border-radius: 10px;  
+    border-radius: 10px; 
+    width: 75%; 
+    font-weight: bold;
 }
 
 .aboutTitle{
     font-size: 5rem;
     color: var(--blue);
     margin-bottom: 20px;
+    text-shadow: var(--text-shadow);
+
 }
 
 .topVideosLabel{

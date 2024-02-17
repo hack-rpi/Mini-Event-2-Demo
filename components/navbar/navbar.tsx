@@ -21,9 +21,6 @@ export default function Navbar() {
       <a href="#projects" className={styles["nav-item"]}>
         Projects
       </a>
-      <a href="#activities" className={styles["nav-item"]}>
-        Activities
-      </a>
       <a href="#awards" className={styles["nav-item"]}>
         Awards
       </a>

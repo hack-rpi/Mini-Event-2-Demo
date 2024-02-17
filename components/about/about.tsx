@@ -5,10 +5,11 @@ export default function About() {
 			<div className={styles["content-container"]}>
 				<h2 className={styles["content-title"]}>About</h2>
 				<p className={styles["content-text"]}>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					🌟 Making the world a better place, one crazy challenge at a
+					time! 💰 Giving away millions & spreading positivity! 🚀
+					Join the #BeastArmy and let's change lives together! 🎥
+					YouTube's favorite philanthropist & content creator!
+					#TeamTrees 🌳 #TeamSeas 🌊
 				</p>
 			</div>
 			<div

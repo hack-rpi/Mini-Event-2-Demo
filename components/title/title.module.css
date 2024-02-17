@@ -1,47 +1,46 @@
-.titleContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    border-radius: 10px;
-    padding-top: 48px;
-    width: 100%;
-    background-color: var(--blue);
+.titleContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	padding-top: 48px;
+	width: 100%;
+	background-color: var(--blue);
 }
 
-.leftContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 100%;
-    background-color: var(--blue);
+.leftContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 100%;
+	background-color: var(--blue);
 }
 
-.titleImg{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+.titleImg {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
 }
 
-.rightContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 75%;
-    height: 100%;
-    background-color: var(--blue);
-    color: var(--pink)
+.rightContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 75%;
+	height: 100%;
+	background-color: var(--blue);
+	color: var(--pink);
 }
 
-.title{
-    font-size: 5rem;
-    margin-bottom: 20px;
-    text-shadow: var(--text-shadow);
+.title {
+	font-size: 5rem;
+	margin-bottom: 20px;
+	text-shadow: var(--text-shadow);
 }
 
-.subtitle{
-    font-size: 2rem;
-    margin-bottom: 20px;
+.subtitle {
+	font-size: 2rem;
+	margin-bottom: 20px;
 }

@@ -13,8 +13,8 @@ export default function Home() {
 			<Title />
 			<About />
 			<Experience />
-			<Awards />
-			
+			{/* Project Section goes here */}
+			<Awards />	
 			<Contact />
 		</div>
 	);

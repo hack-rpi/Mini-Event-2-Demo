@@ -1,13 +1,14 @@
 :root {
-  --blue: #08B0D5;
-	--pink: #E3447C;
+	--blue: #08b0d5;
+	--pink: #e3447c;
 	--black: #000000;
-	--white: #FFFFFF;
-  --text-shadow: black 7px 7px
+	--white: #ffffff;
+	--text-shadow: black 7px 7px;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  font-family: Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, sans-serif;
+	overflow-x: hidden;
 }

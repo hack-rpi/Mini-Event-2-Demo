@@ -1,47 +1,58 @@
-.aboutContainer{
+.about-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
     background-color: var(--pink);
-    width:100%;
 }
 
-.aboutText{
-    font-size: 2rem;
-    color: var(--white);
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px; 
-    width: 75%; 
-    font-weight: bold;
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(5 / 6 * 100%);
+    margin-bottom: 20px;
 }
 
-.aboutTitle{
+.content-title{
     font-size: 5rem;
-    color: var(--blue);
     margin-bottom: 20px;
     text-shadow: var(--text-shadow);
-
-}
-
-.topVideosLabel{
-    font-size: 4rem;
     color: var(--blue);
-    margin-top: 50px;
-    margin-bottom: 20px;
 }
 
-.topVideos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: var(--blue);
-    color: var(--pink);
-    width: 100%;
-    font-size: 3rem;
-    border-radius: 10px;
+.content-text{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--black);
+    width: calc(5 / 6 * 100%);
+    text-align: center;
 }
+
+.skills-list{
+    list-style-type: none;
+}
+
+.skills-list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skills-list li::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/public/mrbeastlogo.png);
+    background-size: cover;
+    margin-right: 10px;
+    
+}
+
+

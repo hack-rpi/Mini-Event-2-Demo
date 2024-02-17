@@ -5,7 +5,6 @@ export default function Contact() {
   return (
     <div className={styles["contact-me-container"]} id="contact">
       <h1 className={styles["contact-me-title"]}>Contact Me</h1>
-
       <h2 className={styles["contact-me-text"]}>
         If you're interested in learning more about me, connect with me via my
         social media links below or send me an email! I'd love to hear from you!

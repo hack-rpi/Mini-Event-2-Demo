@@ -3,7 +3,7 @@ import styles from "./awards.module.css";
 export default function Awards() {
 	return (
 		<div id="awards" className={styles["awards-container"]}>
-			<h2 className={styles["awards-title"]}>Awards</h2>
+			<h2 className="white">Awards</h2>
 			<div className={styles["content-container"]}>
 				<h3 className={styles["awards-subtitle"]}>
 					Forbes 30 Under 30

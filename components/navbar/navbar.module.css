@@ -9,7 +9,7 @@
   width: auto;
   position: sticky;
   backdrop-filter: blur(10px);
-  background-color: var(--blue-opacity);
+  background-color: var(--navy-opacity);
   border-radius: 50px;
 }
 

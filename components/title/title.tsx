@@ -7,7 +7,8 @@ export default function Title() {
       </div>
       <div className={styles.rightContainer}>
         <h1 className={styles.title}>Mr Beast</h1>
-        <p className={styles.subtitle}>X Super Official CEO</p>
+        <p className={styles.subtitle}>400 million subscribers</p>
+        <a className="button" target="_blank" href="https://www.youtube.com/@MrBeast">Check it out<span className="chevron">»</span></a>
       </div>
     </div>
   );

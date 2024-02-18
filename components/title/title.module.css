@@ -1,7 +1,4 @@
-@font-face {
-	font-family: Third-Rail;
-	src: url("/thirdrail.ttf");
-  }
+
 
 .titleContainer {
 	display: flex;

@@ -1,7 +1,9 @@
 :root {
 	--blue: #08b0d5;
+	--dark-blue: #0686a2;
 	--blue-opacity: #08b0d5dd;
 	--navy: #001f3f;
+	--navy-opacity: #001f3fdd;
 	--pink: #e3447c;
 	--dark-pink: #c93c6e;
 	--black: #000000;
@@ -86,6 +88,11 @@ h1.navy, h2.navy{
 	color: var(--navy);
 }
 
+h1.white, h2.white{
+	color: var(--white);
+}
+
+
 h1{
 	font-family: Third-Rail !important;
 }
@@ -109,4 +116,32 @@ h3{
 	/* align-items: center; */
 	justify-content: center;
 	gap: 50px;
+}
+
+a.button{
+	background-color: var(--pink);
+	padding: 15px 20px;
+	border: 0;
+	color: white;
+	font-size: 1.5rem;
+	font-family: Bebas-Neue;
+	transition: 0.2s;
+	cursor: pointer;
+	display: inline-block;
+	user-select: none;
+}
+
+a.button:hover{
+	box-shadow: var(--blue) 4px 4px, var(--dark-blue) 8px 8px;
+	transform: translate(-3px, -3px);
+}
+
+a.button:active{
+	box-shadow: var(--blue) 2px 2px, var(--dark-blue) 4px 4px;
+	transform: translate(-1px, -1px);
+}
+
+.chevron{
+	/* line-height: 2em; */
+	transform: scale(2, 1);
 }

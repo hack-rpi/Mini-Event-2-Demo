@@ -12,29 +12,19 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: calc(5 / 6 * 100%);
 	margin-bottom: 20px;
-}
-
-.awards-title {
-	font-size: 5rem;
-	margin-bottom: 20px;
-	text-shadow: var(--text-shadow);
-	color: var(--pink);
-	margin-top: 20px;
 }
 
 .awards-subtitle {
 	font-size: 3rem;
 	margin-bottom: 20px;
-	color: var(--black);
+	color: var(--white);
 }
 
 .awards-text {
 	font-size: 2rem;
 	margin-bottom: 20px;
-	color: var(--black);
-	width: calc(5 / 6 * 100%);
+	color: var(--white);
 	text-align: center;
 }
 

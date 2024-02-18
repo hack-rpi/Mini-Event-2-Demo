@@ -1,0 +1,20 @@
+.container{
+    background-color: white;
+}
+
+.video-thumbnail{
+    width: 200px;
+}
+
+.video{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.videoContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 10px;
+}

@@ -5,6 +5,7 @@ import Title from "@/components/title/title";
 import Contact from "@/components/contact/contact";
 import Experience from "@/components/experience/experience";
 import Awards from "@/components/awards/awards";
+import Projects from "@/components/projects/projects";
 
 export default function Home() {
 	return (
@@ -13,7 +14,7 @@ export default function Home() {
 			<Title />
 			<About />
 			<Experience />
-			{/* Project Section goes here */}
+			<Projects />
 			<Awards />	
 			<Contact />
 		</div>

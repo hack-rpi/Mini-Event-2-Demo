@@ -6,17 +6,6 @@ export default function Experience() {
 		<div id="experience" className={styles["experience-container"]}>
 			<div className={styles["content-container"]}>
 				<h2 className={styles["experience-title"]}>Experience</h2>
-				<div className={styles["video-container"]}>
-				<div className={styles["video-item"]}>
-					<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/video1"
-						title="Video 1"
-						allowFullScreen
-					></iframe>
-				</div>
-				</div>
 				<a
 					href="https://youtube.com/@mrbeast"
 					target="_blank"

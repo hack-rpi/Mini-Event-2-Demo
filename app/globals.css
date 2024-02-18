@@ -12,3 +12,8 @@ body {
 	font-family: Helvetica, sans-serif;
 	overflow-x: hidden;
 }
+
+a{
+	text-decoration: none;
+	color: white;
+}

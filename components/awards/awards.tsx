@@ -8,7 +8,7 @@ export default function Awards() {
 				<h3 className={styles["awards-subtitle"]}>
 					Forbes 30 Under 30
 				</h3>
-				<p className={styles["awards-text"]}>
+				<p className="m-50">
 					Forbes 30 Under 30 is a set of lists issued annually by
 					Forbes magazine and some of its regional editions. The
 					American lists recognize 600 business and industry figures,
@@ -18,7 +18,7 @@ export default function Awards() {
 			</div>
 			<div className={styles["middle-child"]}>
 				<h3 className={styles["awards-subtitle"]}>Shorty Awards</h3>
-				<p className={styles["awards-text"]}>
+				<p className="m-50">
 					The Shorty Awards, also known as the "Shortys", is an annual
 					awards show recognizing the people and organizations that
 					produce real-time short form content across Twitter,
@@ -28,7 +28,7 @@ export default function Awards() {
 			</div>
 			<div className={styles["content-container"]}>
 				<h3 className={styles["awards-subtitle"]}>Streamy Awards</h3>
-				<p className={styles["awards-text"]}>
+				<p className="m-50">
 					The Streamy Awards, often referred to as the Streamys, is an
 					annual event that celebrates excellence in online video
 					content creation and the individuals and teams behind it.

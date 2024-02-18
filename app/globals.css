@@ -36,6 +36,8 @@ body {
 	padding: 0px;
 	font-family: Poppins, Helvetica, sans-serif;
 	background-color: var(--navy);
+	font-size: 2rem;
+	color: var(--white);
 }
 
 a{
@@ -144,4 +146,8 @@ a.button:active{
 .chevron{
 	/* line-height: 2em; */
 	transform: scale(2, 1);
+}
+
+.m-50{
+	margin: 50px;
 }

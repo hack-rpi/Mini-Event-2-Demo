@@ -57,6 +57,6 @@
 
 .experience-subtitle:hover{
 	transform: translate(-2px, -2px);
-	text-shadow: 3px 3px var(--pink), 6px 6px var(--blue); 
+	text-shadow: 3px 3px var(--blue), 6px 6px var(--pink); 
 	/* border-bottom: 2px solid white; */
 }

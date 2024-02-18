@@ -1,4 +1,5 @@
 import styles from "./contact.module.css";
+import Newsletter from "@/components/newsletter/newsletter";
 import React from "react";
 
 export default function Contact() {
@@ -7,9 +8,9 @@ export default function Contact() {
       <h1 className={styles["contact-me-title"]}>Contact Me</h1>
       <h2 className={styles["contact-me-text"]}>
         If you're interested in learning more about me, connect with me via my
-        social media links below or send me an email! I'd love to hear from you!
+        social media links below or sign up for my newsletter! I'd love to hear from you!
       </h2>
-
+      <Newsletter></Newsletter>
       <div className={styles["links-container"]}>
         <a className={styles["link"]} href="https://www.youtube.com/@MrBeast">
           <img src="youtube.png" alt="YouTube" />

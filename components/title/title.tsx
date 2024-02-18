@@ -3,10 +3,10 @@ export default function Title() {
   return (
     <div className={styles.titleContainer}>
       <div className={styles.leftContainer}>
-        <img className={styles.titleImg} src="Mr.Beast.jpg" alt="Mr. Beast" />
+        <img className={styles.titleImg} src="mrbeast.svg" alt="Mr.Beast" />
       </div>
       <div className={styles.rightContainer}>
-        <h1 className={styles.title}>Mr. Beast</h1>
+        <h1 className={styles.title}>Mr Beast</h1>
         <p className={styles.subtitle}>X Super Official CEO</p>
       </div>
     </div>

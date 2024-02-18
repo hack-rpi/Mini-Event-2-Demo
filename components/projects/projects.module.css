@@ -1,20 +1,25 @@
-.container{
-    background-color: white;
-}
 
 .video-thumbnail{
     width: 200px;
 }
 
 .video{
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 10px;
     background-color: var(--blue);
+    transition: 0.25s;
+}
+
+.video:hover{
+    box-shadow: 5px 5px var(--pink), 10px 10px var(--dark-pink);
+    transform: translate(-5px, -5px);
 }
 
 .videoContainer{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
-    margin: 10px;
+    gap: 20px;
+    padding: 20px;
+    /* margin: 10px; */
+    background-color: var(--navy);
 }

@@ -4,9 +4,6 @@ export default function Navbar() {
   return (
     <div className={styles["nav-container"]} id="">
       <div className={styles["nav-flex"]}>
-        <a href="#home" >
-          <img src="mrbeastlogo.png" alt="Beast logo" className= {styles["logo"]} />
-        </a>
         <a href="#home" className={styles["nav-item"]}>
           Home
         </a>

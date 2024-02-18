@@ -1,19 +1,112 @@
 :root {
 	--blue: #08b0d5;
+	--blue-opacity: #08b0d5dd;
+	--navy: #001f3f;
 	--pink: #e3447c;
+	--dark-pink: #c93c6e;
 	--black: #000000;
 	--white: #ffffff;
+	--white-opacity: #ffffffdd;
 	--text-shadow: black 7px 7px;
+}
+
+@font-face {
+	font-family: Third-Rail;
+	src: url("/thirdrail.ttf");
+}
+
+@font-face {
+	font-family: Bebas-Neue;
+	src: url("/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url("/Poppins-Regular.ttf");
+}
+
+html, body{
+	scroll-behavior: smooth;
 }
 
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: Helvetica, sans-serif;
-	overflow-x: hidden;
+	font-family: Poppins, Helvetica, sans-serif;
+	background-color: var(--navy);
 }
 
 a{
 	text-decoration: none;
 	color: white;
+}
+
+.container{
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	min-height: 100vh;
+	width: 100%;
+	/* padding: 50px; */
+	background-color: var(--white);
+	color: var(--black);
+	font-size: 2rem;
+}
+
+
+
+.container.pink{
+	background-color: var(--pink);
+	color: var(--white);
+}
+
+.container.blue{
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.container.navy{
+	background-color: var(--navy);
+	color: var(--white);
+}
+
+.container.white{
+	background-color: var(--white);
+}
+
+h1.pink, h2.pink{
+	color: var(--pink);
+}
+
+h1.blue, h2.blue{
+	color: var(--blue);
+}
+
+h1.navy, h2.navy{
+	color: var(--navy);
+}
+
+h1{
+	font-family: Third-Rail !important;
+}
+
+h2 {
+	font-family: Bebas-Neue;
+	font-size: 5rem;
+	text-shadow: var(--text-shadow);
+	margin: 20px 0;
+}
+
+h3{
+
+}
+
+.flex{
+	display: flex;
+}
+
+.flex.container{
+	/* align-items: center; */
+	justify-content: center;
+	gap: 50px;
 }

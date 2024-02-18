@@ -1,43 +1,62 @@
+@font-face {
+	font-family: Third-Rail;
+	src: url("/thirdrail.ttf");
+  }
+
 .titleContainer {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	height: 100%;
+	height: 100vh;
 	/* padding-top: 48px; */
 	width: 100%;
-	background-color: var(--blue);
+	gap: 50px;
+	background-color: var(--navy);
+	font-family: Third-Rail;
+	color: white;
 }
 
 .leftContainer {
-	display: flex;
+	/* display: flex;
 	justify-content: center;
 	align-items: center;
-	width: auto;
-	height: 100%;
-	background-color: var(--blue);
+	height: 100%; */
 }
 
 .titleImg {
-	width: 100%;
-	height: 100%;
-	object-fit: fill;
+	width: 300px;
 }
 
 .rightContainer {
-	display: flex;
+	/* display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 75%;
-	height: 100%;
-	background-color: var(--blue);
-	color: var(--pink);
+	
+	color: var(--white); */
+}
+
+@keyframes floating{
+	0%{
+		transform: translate(0, 0);
+		text-shadow: 5px 5px var(--blue), 10px 10px var(--pink);
+	}
+	50%{
+		transform: translate(10px, -10px);
+		text-shadow: 10px 10px var(--blue), 20px 20px var(--pink);
+	}
+	100%{
+		transform: translate(0, 0);
+		text-shadow: 5px 5px var(--blue), 10px 10px var(--pink);
+
+	}
 }
 
 .title {
 	font-size: 5rem;
 	margin-bottom: 20px;
-	text-shadow: var(--text-shadow);
+	text-shadow: 5px 5px var(--blue), 10px 10px var(--pink);
+	/* animation: floating 2s ease-in-out infinite; */
 }
 
 .subtitle {
